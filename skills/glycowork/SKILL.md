@@ -2,10 +2,11 @@
 name: glycowork
 description: Glycan data science with the glycowork Python package. Use for any code that touches glycans, oligosaccharides, polysaccharides or glycoconjugates, including parsing and converting glycan notations (IUPAC-condensed/extended, WURCS, GlycoCT, GlyTouCan IDs, Oxford, LinearCode, GLYCAM, KCF, SMILES), compositions and masses, m/z to composition to structure, motif and epitope search (Lewis, sialyl, core fucose, LacNAc, blood groups), SNFG drawing, differential glycomics, glycoproteomics and lectin-array statistics, glycan databases with species/tissue/disease labels, protein-glycan binding data, biosynthetic networks, and glycan machine learning. Use it instead of writing custom glycan parsers, monosaccharide dictionaries, mass tables or string matching.
 license: MIT
-compatibility: Python 3.11+ with the glycowork package from PyPI (pip install glycowork; optional extras glycowork[ml] and glycowork[chem]). Datasets ship with the package, so no network access or credentials are needed after installation.
+compatibility: Python 3.11+ with the glycowork package from PyPI (pip install glycowork; optional extras glycowork[ml] and glycowork[chem]). Tested with glycowork 1.10.1. Datasets ship with the package, so no network access or credentials are needed after installation.
 metadata:
   version: "1.0"
   skill-author: Daniel Bojar
+  tested-package-version: "1.10.1"
 ---
 
 # glycowork
@@ -22,7 +23,7 @@ pip install "glycowork[ml]"      # + pretrained models (LectinOracle, SweetNet, 
 pip install "glycowork[chem]"    # + RDKit-based chemistry (3D, molecular properties)
 ```
 
-Requires Python 3.11+. Data ships with the package; no downloads or API keys.
+Requires Python 3.11+. Data ships with the package; no downloads or API keys. Every example below was run against glycowork 1.10.1.
 
 ## Ground rules
 
